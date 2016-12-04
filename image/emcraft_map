@@ -1,0 +1,8 @@
+
+
+BASE 		0x08000000
+uboot	     	 10de4
+uboot end	     1f000
+kernel start     20000
+
+

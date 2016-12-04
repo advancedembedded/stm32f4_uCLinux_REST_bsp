@@ -1,0 +1,9 @@
+#!/bin/sh
+case "$1" in
+	start)
+		#RestApp
+		echo "Start of REST RANGER"
+	;;
+esac
+
+exit 0

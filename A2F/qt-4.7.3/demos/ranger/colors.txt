@@ -1,0 +1,36 @@
+green
+6c8648 78934b 849f51 91aa5b 9ab262
+
+light blue
+91a4b7  99afc3 a2b9ce afc8dd bdd6ed
+
+yellow 
+cbb485 d9c189 e6ce8e f0d997 fde6a1
+
+pink
+c294b7 d0a4c8 d9afd2 d9b8d7 d8c4df
+
+gray
+d8c4df a3a3a3 b2b2b2 cbcbcb dfdfdf
+
+border
+ebebeb
+
+red
+802727 a03635 b13e3e b74040 bf4343
+
+red border 
+c14444
+
+blue
+14517a 225fa3 2d6cc1 2d75c1 2d84c1
+
+blue border
+2d88c1
+
+graybar
+838383 979797 a7a7a7 b4b4b4 cacaca
+
+icon green
+9cb464
+

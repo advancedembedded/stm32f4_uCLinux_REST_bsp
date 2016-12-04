@@ -1,0 +1,32 @@
+#!/bin/sh
+mount -a
+#mount -o nolock,rsize=1024 172.17.0.1:/home/vlad/test/HEAD/projects /mnt
+#ifconfig lo 127.0.0.1
+# ifconfig eth0 172.17.0.199
+# For the touchscreen input
+# **** LCD display backlight control / LCD display enable control ****
+# gpio = (bank * 16) + pin
+# **** THIS IS JUST TEMPORARY, NEEDS TO BE ADDED TO THER ACTUAL FB DRIVER!!!! ****
+# PA1,PA2 -> gpio=1, gpio=2
+echo 1 > /sys/class/gpio/export
+echo 2 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio1/direction
+echo out > /sys/class/gpio/gpio2/direction
+echo 1 > /sys/class/gpio/gpio1/value
+echo 1 > /sys/class/gpio/gpio2/value
+
+# **** SPI flash /RESET and /WP control ****
+# **** THIS IS JUST TEMPORARY, NEEDS TO BE ADDED TO THER ACTUAL SPI DRIVER!!!! ****
+# PB12,PD12 -> gpio=28, gpio=60
+echo 28 > /sys/class/gpio/export
+echo 60 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio28/direction
+echo out > /sys/class/gpio/gpio60/direction
+echo 1 > /sys/class/gpio/gpio28/value
+echo 1 > /sys/class/gpio/gpio60/value
+
+export TSLIB_CONSOLEDEVICE=none
+#./usr/bin/ts_calibrate
+export QWS_MOUSE_PROTO=linuxinput:/dev/input/event0
+#cd qtdemo
+#./qt&

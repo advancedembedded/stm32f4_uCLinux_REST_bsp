@@ -1,0 +1,149 @@
+QCheckBox {
+    border: 2px solid #ccc;
+    color: white;
+    outline:0;
+    padding: 3px 6px 5px 6px;
+    border-radius: 10px;
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #802727, stop: .25 #a03635, stop: .5 #b13e3e, stop: .75 #b74040, stop: 1 #bf4343);
+}
+QCheckBox::indicator:unchecked {
+	image: url(:images/checkbox_off2.png);
+}
+QCheckBox::indicator:checked {
+	image: url(:images/checkbox_on2.png);
+}
+QPushButton, QPushButton#cool, QPushButton#heat, QPushButton#red, QPushButton#off  {
+    border: 2px solid #ccc;
+    color: white;
+    outline:0;
+    padding: 2px 6px 6px 6px;
+    border-radius: 10px;
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #802727, stop: .25 #a03635, stop: .5 #b13e3e, stop: .75 #b74040, stop: 1 #bf4343);
+}
+QPushButton:pressed {
+    border: 2px solid firebrick;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+              stop: 0 #c294b7, stop: .25 #d0a4c8, stop: .5 #d9afd2, stop: .75 #d9b8d7,stop: 1 #d8c4df);
+}
+QPushButton:disabled, QPushButton#heat:disabled, QPushButton#cool:disabled  {
+    border: 2px solid #ccc;
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #d8c4df, stop: .25 #a3a3a3, stop: .5 #b2b2b2, stop: .75 #cbcbcb,stop: 1 #dfdfdf);
+}
+QPushButton#keyboard {
+    color: white;
+    border: 2px solid #ccc;
+    padding: 3px 6px 5px 6px;
+    border-radius: 10px;
+    outline:0;
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #d8c4df, stop: .25 #a3a3a3, stop: .5 #b2b2b2, stop: .75 #cbcbcb,stop: 1 #dfdfdf);
+}
+QPushButton#keyboard:pressed {
+    border: 2px solid firebrick;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+              stop: 0 #c294b7, stop: .25 #d0a4c8, stop: .5 #d9afd2, stop: .75 #d9b8d7,stop: 1 #d8c4df);
+}
+QPushButton#cool {
+    border: 2px solid blue;
+}
+QPushButton#cool:pressed {
+    border: 2px solid firebrick;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+              stop: 0 #c294b7, stop: .25 #d0a4c8, stop: .5 #d9afd2, stop: .75 #d9b8d7,stop: 1 #d8c4df);
+}
+QPushButton#heat {
+    border: 2px solid red;
+}
+QPushButton#heat:pressed {
+    border: 2px solid firebrick;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+              stop: 0 #c294b7, stop: .25 #d0a4c8, stop: .5 #d9afd2, stop: .75 #d9b8d7,stop: 1 #d8c4df);
+}
+QPushButton#red {
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #802727, stop: .25 #a03635, stop: .5 #b13e3e, stop: .75 #b74040,stop: 1 #bf4343);
+}
+QPushButton#red:pressed {
+    border: 2px solid firebrick;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+              stop: 0 #802727, stop: .25 #a03635, stop: .5 #b13e3e, stop: .75 #b74040,stop: 1 #bf4343);
+}
+QPushButton#off {
+     background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #d8c4df, stop: .25 #a3a3a3, stop: .5 #b2b2b2, stop: .75 #cbcbcb,stop: 1 #dfdfdf);
+}
+QPushButton#off:pressed {
+    border: 2px solid white;
+    color: black;
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #d8c4df, stop: .25 #a3a3a3, stop: .5 #b2b2b2, stop: .75 #cbcbcb,stop: 1 #dfdfdf);
+}
+QGroupBox#grayBar {
+    border: 0 none;
+    outline:0;
+    border-radius: 0;
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #838383, stop: .25 #979797, stop: .5 #a7a7a7, stop: .75 #b4b4b4,stop: 1 #cacaca);
+}
+QGroupBox#header {
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+          stop: 0 #802727, stop: .25 #a03635, stop: .5 #b13e3e, stop: .75 #b74040, stop: 1 #bf4343);
+}
+QPushButton#upButton, QPushButton#dnButton, QPushButton#pixmap  {
+	outline:0;
+	border: 0 none;
+	background-color:  transparent;
+}
+
+QPushButton#greenBut, QPushButton#lightBlueBut, PushButton#yellowBut, QPushButton#pinkBut, QPushButton#redBut {
+    border: 2px solid #ccc;
+    outline:0;
+    border-radius: 10px;
+}
+
+QPushButton#greenBut,QPushButton#greenBut:pressed, QPushButton#greenButSelected {
+   background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #6c8648, stop: .25 #78934b, stop: .5 #849f51, stop: .75 #91aa5b,stop: 1 #9ab262);
+}
+QPushButton#greenBut:pressed, QPushButton#greenButSelected  {
+    border: 2px solid green;
+}
+QPushButton#lightBlueBut, QPushButton#lightBlueBut:pressed, QPushButton#lightBlueButSelected {
+    border: 2px solid #ccc;
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #91a4b7, stop: .25 #99afc3, stop: .5 #a2b9ce, stop: .75 #afc8dd,stop: 1 #bdd6ed);
+}
+QPushButton#lightBlueBut:pressed, QPushButton#lightBlueButSelected{
+    border: 2px solid blue;
+}
+QPushButton#yellowBut, QPushButton#yellowBut:pressed, QPushButton#yellowButSelected {
+     background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #cbb485, stop: .25 #d9c189, stop: .5 #e6ce8e, stop: .75 #f0d997,stop: 1 #fde6a1);
+}
+QPushButton#yellowBut:pressed, QPushButton#yellowButSelected{
+    border: 2px solid brown;
+}
+QPushButton#pinkBut,QPushButton#pinkBut:pressed, QPushButton#pinkButSelected {
+  background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #c294b7, stop: .25 #d0a4c8, stop: .5 #d9afd2, stop: .75 #d9b8d7,stop: 1 #d8c4df);
+}
+QPushButton#pinkBut:pressed, QPushButton#pinkButSelected{
+    border: 2px solid firebrick;
+}
+QPushButton#grayBut,QPushButton#grayBut:pressed, QPushButton#grayButSelected{ 
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #d8c4df, stop: .25 #a3a3a3, stop: .5 #b2b2b2, stop: .75 #cbcbcb,stop: 1 #dfdfdf);
+}			  	
+QPushButton#grayBut:pressed, QPushButton#grayButSelected{
+    border: 2px solid gray;
+}
+QPushButton#redBut,QPushButton#redBut:pressed, QPushButton#redButSelected{
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 0, y2: 0,
+              stop: 0 #802727, stop: .25 #a03635, stop: .5 #b13e3e, stop: .75 #b74040, stop: 1 #bf4343);
+}
+QPushButton#redBut:pressed, QPushButton#redButSelected{
+    border: 2px solid gray;
+}

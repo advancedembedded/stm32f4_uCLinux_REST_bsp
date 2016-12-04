@@ -1,0 +1,7 @@
+#!/bin/sh
+mount -a
+#mount -o nolock,rsize=1024 172.17.0.1:/home/vlad/test/HEAD/projects /mnt
+#ifconfig lo 127.0.0.1
+# ifconfig eth0 172.17.0.199
+cd qtdemo
+./qt&

@@ -1,0 +1,30 @@
+
+//Setmode
+AT+CWMODE=3
+
+ACK: OK
+
+//Set ROUTER
+AT+CWJAP="SSID", "PASSWORD"
+
+ACK: OK
+
+//Get IP from ROUTER
+AT+CIFSR
+ACK: XXX.XXX.XXX.XXX
+
+//Connect to server
+AT+CIPSTART="TCP" "www.restsaves.com", 8080
+
+ACK: OK
+
+//Send Data
+
+AT+CIPSEND=LENGTH
+>DATA
+
+ACK: OK
+
+//Recieve Data
++IPD
+

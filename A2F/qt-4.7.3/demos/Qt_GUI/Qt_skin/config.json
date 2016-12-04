@@ -1,0 +1,377 @@
+{
+    "backup_heat": null,
+    "change_over": null,
+    "clockFormat": 12,
+    "configVersion": "string",
+    "coolToDegrees": 77,
+    "coolToTime": 1476990906,
+    "cooling_stage": null,
+    "currFwVersion": "string",
+    "date": null,
+    "dst": true,
+    "enableSchedule": true,
+    "epochTime": 0,
+    "fanMode": "on",
+    "fan_control": null,
+    "filterChangeDate": 0,
+    "filterLifeInDays": 0,
+    "firmwareUrl": "string",
+    "first_time": null,
+    "heatToDegrees": 72,
+    "heatToTime": 1476990906,
+    "heating_stage": null,
+    "humidity": "string",
+    "hvacConfig": {
+        "backupHeatingType": "string",
+        "coolingStages": 0,
+        "heatingStages": 0,
+        "hvacType": "heat"
+    },
+    "hvacMode": "heat",
+    "keyboard_lock": null,
+    "language": "english",
+    "localHumidity": 90,
+    "localTemp": 99,
+    "lockCode": "0000",
+    "macAddress": "string",
+    "metric": true,
+    "nextFwVersion": "string",
+    "ownersName": "frank",
+    "reset": true,
+    "schedule": "vacation",
+    "schedule_periods": null,
+    "schedules": [
+        {
+            "days": [
+                {
+                    "label": "vacation",
+                    "periods": [
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "leave",
+                            "startTime": "8:00am",
+                            "startTimeUtc": 43200,
+                            "stopTime": "4:56pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "Wake",
+                            "startTime": "6:15am",
+                            "startTimeUtc": 39600,
+                            "stopTime": "8:09am"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "return",
+                            "startTime": "5:01pm",
+                            "startTimeUtc": 61200,
+                            "stopTime": "9:52pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "sleep",
+                            "startTime": "10:00pm",
+                            "startTimeUtc": 79200,
+                            "stopTime": "6:00am"
+                        }
+                    ]
+                }
+            ],
+            "label": "vacation",
+            "systemDefined": false
+        },
+        {
+            "days": [
+                {
+                    "label": "weekday",
+                    "periods": [
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "leave",
+                            "startTime": "8:00am",
+                            "startTimeUtc": 43200,
+                            "stopTime": "5:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "Wake",
+                            "startTime": "6:00am",
+                            "startTimeUtc": 21600,
+                            "stopTime": "8:00am"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "return",
+                            "startTime": "5:00pm",
+                            "startTimeUtc": 61200,
+                            "stopTime": "10:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "sleep",
+                            "startTime": "10:00pm",
+                            "startTimeUtc": 79200,
+                            "stopTime": "6:00am"
+                        }
+                    ]
+                }
+            ],
+            "label": "weekday",
+            "systemDefined": false
+        },
+        {
+            "days": [
+                {
+                    "label": "weekend",
+                    "periods": [
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "leave",
+                            "startTime": "8:00am",
+                            "startTimeUtc": 43200,
+                            "stopTime": "5:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "Wake",
+                            "startTime": "6:00am",
+                            "startTimeUtc": 21600,
+                            "stopTime": "8:00am"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "return",
+                            "startTime": "5:00pm",
+                            "startTimeUtc": 61200,
+                            "stopTime": "10:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "sleep",
+                            "startTime": "10:00pm",
+                            "startTimeUtc": 79200,
+                            "stopTime": "6:00am"
+                        }
+                    ]
+                }
+            ],
+            "label": "weekend",
+            "systemDefined": false
+        },
+        {
+            "days": [
+                {
+                    "label": "monday",
+                    "periods": [
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "leave",
+                            "startTime": "8:00am",
+                            "startTimeUtc": 43200,
+                            "stopTime": "5:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "Wake",
+                            "startTime": "6:05am",
+                            "startTimeUtc": 21600,
+                            "stopTime": "7:52am"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "return",
+                            "startTime": "5:00pm",
+                            "startTimeUtc": 61200,
+                            "stopTime": "10:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "sleep",
+                            "startTime": "9:53pm",
+                            "startTimeUtc": 79200,
+                            "stopTime": "6:07am"
+                        }
+                    ]
+                },
+                {
+                    "label": "tuesday",
+                    "periods": [
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "leave",
+                            "startTime": "8:00am",
+                            "startTimeUtc": 43200,
+                            "stopTime": "5:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "Wake",
+                            "startTime": "6:00am",
+                            "startTimeUtc": 21600,
+                            "stopTime": "8:00am"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "return",
+                            "startTime": "5:00pm",
+                            "startTimeUtc": 61200,
+                            "stopTime": "10:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "sleep",
+                            "startTime": "10:00pm",
+                            "startTimeUtc": 79200,
+                            "stopTime": "6:00am"
+                        }
+                    ]
+                },
+                {
+                    "label": "friday",
+                    "periods": [
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "leave",
+                            "startTime": "8:00am",
+                            "startTimeUtc": 43200,
+                            "stopTime": "5:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "Wake",
+                            "startTime": "6:00am",
+                            "startTimeUtc": 21600,
+                            "stopTime": "8:00am"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "return",
+                            "startTime": "5:00pm",
+                            "startTimeUtc": 61200,
+                            "stopTime": "10:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "sleep",
+                            "startTime": "10:00pm",
+                            "startTimeUtc": 79200,
+                            "stopTime": "6:00am"
+                        }
+                    ]
+                },
+                {
+                    "label": "wednesday",
+                    "periods": [
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "leave",
+                            "startTime": "8:00am",
+                            "startTimeUtc": 43200,
+                            "stopTime": "5:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "Wake",
+                            "startTime": "6:00am",
+                            "startTimeUtc": 21600,
+                            "stopTime": "8:00am"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "return",
+                            "startTime": "5:00pm",
+                            "startTimeUtc": 61200,
+                            "stopTime": "10:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "sleep",
+                            "startTime": "10:00pm",
+                            "startTimeUtc": 79200,
+                            "stopTime": "6:00am"
+                        }
+                    ]
+                },
+                {
+                    "label": "thursday",
+                    "periods": [
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "leave",
+                            "startTime": "8:00am",
+                            "startTimeUtc": 43200,
+                            "stopTime": "5:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "Wake",
+                            "startTime": "6:00am",
+                            "startTimeUtc": 21600,
+                            "stopTime": "8:00am"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "return",
+                            "startTime": "5:00pm",
+                            "startTimeUtc": 61200,
+                            "stopTime": "10:00pm"
+                        },
+                        {
+                            "coolTemp": 78,
+                            "heatTemp": 72,
+                            "label": "sleep",
+                            "startTime": "10:00pm",
+                            "startTimeUtc": 79200,
+                            "stopTime": "6:00am"
+                        }
+                    ]
+                }
+            ],
+            "label": "all days",
+            "systemDefined": false
+        }
+    ],
+    "scheduling_option": null,
+    "securityMode": "string",
+    "selectedSchedule": "vacation",
+    "serial": null,
+    "system_type": null,
+    "tempHold": true,
+    "tempSetPoint": 72,
+    "themeScheme": "green",
+    "thermo_controls": null,
+    "timeZoneOffset": 0,
+    "unitLocked": true,
+    "zipCode": 0
+}

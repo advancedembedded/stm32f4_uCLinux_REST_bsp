@@ -1,0 +1,14 @@
+
+
+L_INC= -I../4.7.3/target/usr/local/include -I../4.7.3/target/usr/local/include/QtCore \
+        -I../4.7.3/target/usr/local/include/QtGui -I../4.7.3/target/usr/local/include/QtSvg
+L_LIBS= ../4.7.3/target/usr/local/lib/libQtGui.a \
+        ../4.7.3/target/usr/local/lib/libQtCore.a \
+        ../4.7.3/target/usr/local/lib/libQtSvg.a
+
+rest_demo: qt.cpp
+    arm-uclinuxeabi-gcc -static -o range_demo moc_ranger.o ranger.o \
+						../4.7.3/target/usr/local/lib/libQtGui.a \
+						../4.7.3/target/usr/local/lib/libQtCore.a \
+						../4.7.3/target/usr/local/lib/libQtSvg.a -lpthread
+
